@@ -1,0 +1,10 @@
+James 176 80
+Mary 168 54
+David 187 60
+Jane 155 47
+Wayne 170 75
+Elice 173 80
+Julie 165 50
+Eugene 182 73
+Amy 158 48
+Steve 170 66
