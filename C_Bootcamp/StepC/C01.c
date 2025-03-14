@@ -34,7 +34,7 @@ int getCountry(char* str){
     // 파라미터: 국적을 나타내는 문자열(str) 
     // 리턴값: 국적에 해당되는 인덱스 (0~5)
     // 수행내용: 국적 문자열에 해당하는 인덱스를 찾는다.
-    if(strcmp(str, "KaR")) return 0;
+    if(strcmp(str, "KR")) return 0;
     else if(strcmp(str, "US")) return 1;
     else if(strcmp(str, "JP")) return 2;
     else if(strcmp(str, "CN")) return 3;
