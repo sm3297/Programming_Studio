@@ -50,6 +50,6 @@ void printInfo(struct st_person* p){
     char Gender[2][10] = {"Female", "Male"};
     char country[6][5] = {"KR", "US", "JP", "CN", "FR", "UK"};
     int age = 2025 - p->birthyear; 
-    printf("%s (%s, age:%d, from %s)",p->name,Gender[p->gender],age,country[p->country]);
+    printf("%s (%s, age:%d, from %s)\n",p->name,Gender[p->gender],age,country[p->country]);
 
 }
