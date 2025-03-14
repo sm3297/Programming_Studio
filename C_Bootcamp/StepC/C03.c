@@ -53,10 +53,8 @@ int main(){
     }
 
     for(int i=0; i<6; i++){
-        printf("[%s] %s:%d %s:%d average age: %.1f\n",country_type[i],gender_type[0],count_gender[i][0],gender_type[1],count_gender[i][1], average[i]);   
+        printf("[%s] %s:%d %s:%d average age:%.1f\n",country_type[i],gender_type[0],count_gender[i][0],gender_type[1],count_gender[i][1], average[i]);   
     }
-
-    printf("\n");
 
     return 0;
 }
